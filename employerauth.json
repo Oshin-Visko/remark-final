@@ -1,0 +1,176 @@
+{
+  "cookies": [
+    {
+      "name": "viewport",
+      "value": "desktopWide",
+      "domain": "remarkhr.com",
+      "path": "/",
+      "expires": 1804916973.070151,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1512786943.1789364974",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1804916974.553778,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_9P68RC1L0B",
+      "value": "GS2.1.s1789364974$o1$g0$t1789364974$j60$l0$h1731616716",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1804916974.669669,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1789364974859.734964423647879906",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1797140978,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid",
+      "value": "des8rUR-RgiSkadI9FZAQKXw-DXvIk6r",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1804916974.915223,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid_r",
+      "value": "des8rUR-RgiSkadI9FZAQKXw-DXvIk6r",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1804916974.915789,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sib_cuid",
+      "value": "d47d3591-473d-4752-9e9a-80abf05c7776",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1804916974.943475,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_sctr",
+      "value": "1%7C1789324200000",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1804916976.792679,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_BBGKRTMHRV",
+      "value": "GS2.1.s1789364974$o1$g1$t1789364979$j55$l0$h591531800",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1804916979.62172,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.646396504.1789364973.113114007.1789364980.1789364979.1714239407.1789364980.1789364979",
+      "domain": ".remarkhr.com",
+      "path": "/",
+      "expires": 1797140973,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://remarkhr.com",
+      "localStorage": [
+        {
+          "name": "u_sclid_r",
+          "value": "KyitGz4F9lLBxXYugZTtNUI8aaPZuf71des8rUR-RgiSkadI9FZAQKXw-DXvIk6r"
+        },
+        {
+          "name": "u_sclid",
+          "value": "KyitGz4F9lLBxXYugZTtNUI8aaPZuf71des8rUR-RgiSkadI9FZAQKXw-DXvIk6r"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1789364974834"
+        },
+        {
+          "name": "userStore",
+          "value": "{\"user\":{\"user_id\":\"116054\",\"user_name\":\"XYZ\",\"user_profile\":\"\",\"user_email\":\"oshin.sharma@visko.group\",\"user_plateform\":\"Web\",\"user_username\":\"\",\"user_organization\":\"test\",\"user_organization_logo\":\"\",\"user_organization_type\":\"1\",\"user_proof_of_organization\":\"resume-sample0.1.pdf\",\"user_pass\":\"\",\"user_mobile\":\"8888888888\",\"user_display_mobile_number\":\"0\",\"user_photo\":\"https://remarkhr-bucket-prod.s3.ap-south-1.amazonaws.com/users/5112d6603b2ff5edba9f6264344647f7f6e10de8/profile/download_1783681754.jpeg\",\"user_bio\":\"\",\"user_ai_bio_limit\":\"0\",\"user_dob\":\"\",\"user_expertise\":\"\",\"user_skills\":\"\",\"user_experience\":null,\"user_experience_ext\":null,\"user_exp_years\":\"\",\"user_exp_months\":\"\",\"user_total_exp_months\":\"\",\"user_qualifications\":\"\",\"user_qualification_ext\":null,\"user_certificates\":null,\"user_languages\":\"\",\"user_last_otp\":\"5120\",\"user_otp_verified\":\"0\",\"user_verification_id\":\"0\",\"user_verified\":\"0\",\"user_closed\":\"0\",\"user_service\":\"0\",\"user_resume\":\"\",\"user_self_intro\":\"\",\"user_deleted\":\"0\",\"user_status\":\"0\",\"user_address\":\"Indore, Madhya Pradesh\",\"user_state\":\"Madhya Pradesh\",\"user_city\":\"Indore\",\"user_country\":\"India\",\"user_location\":\"\",\"user_job_location\":\"\",\"user_token\":\"\",\"user_jwt_token\":\"\",\"user_referral\":\"\",\"user_referred_by\":\"\",\"user_type\":\"2\",\"user_profile_complete\":\"0\",\"user_gst_certificate\":\"\",\"user_gst_number\":\"23AAACH7409R1Z9\",\"user_created_at\":\"2025-12-08 11:20:41\",\"user_update_at\":\"2026-09-03 11:41:35\",\"user_is_deleted\":\"0\",\"user_gender\":\"\",\"user_socials\":\"\",\"hr_name\":\"\",\"email_updates\":\"\",\"last_active\":\"\",\"user_password\":\"CtwGT1cQZ+gxjjZmDFSHMg==\",\"user_email_verified\":\"1\",\"user_registered_token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX21vYmlsZSI6IjYyNjc4OTQwNzYiLCJ1c2VyX3R5cGUiOjIsInVzZXJfa2V5IjoiYmFjNGNiYjYxNzMzMzVlODYyYTFiM2RmNjM1ZWUzYmEiLCJ1c2VyX3BsYXRlZm9ybSI6IndlYiIsImV4cGlyZV9vdHAiOjE3NjUxNzMxMTAsInVzZXJfcGFzc3dvcmQiOiI1TTJubzlNamN1VnNNcU4yVkpSK0tBPT0ifQ.3C3VYVZqAGf0ETfMCjGHOb8zEVw5Ae8UEAiKPpgwiTs\",\"whtsapp_msg_status\":\"NEW\",\"last_whatsapp_reply\":null,\"shifts\":\"Day\",\"marital_status\":\"Single\",\"user_pincode\":null,\"user_company_kyc\":{\"ck_id\":\"3739\",\"ck_user_id\":\"116054\",\"ck_company_proof\":\"https://remarkhr-bucket-prod.s3.ap-south-1.amazonaws.com/users/5112d6603b2ff5edba9f6264344647f7f6e10de8/kyc/resume-sample0.1.pdf\",\"ck_response\":\"1\",\"ck_reason\":\"\",\"ck_crm_employee_id\":\"22\",\"ck_description\":\"\",\"ck_updated_at\":\"2026-05-29 19:07:07\",\"ck_created_at\":\"2025-12-27 12:43:39\",\"ck_doc_type\":\"pan\",\"ck_doc_correct\":null},\"is_company_verified\":\"1\",\"user_buy_subscription\":\"1\",\"user_subscription_detail\":{\"buy_sub_id\":\"174\",\"buy_sub_user_id\":\"116054\",\"buy_sub_invoice\":null,\"buy_sub_start_date\":\"2026-01-03\",\"buy_sub_end_date\":\"2026-12-03\",\"buy_sub_status\":\"inactive\",\"buy_sub_is_deleted\":\"0\",\"buy_sub_renew_status\":null,\"buy_sub_total_hot_vacancy\":\"100\",\"buy_sub_total_email\":\"500\",\"buy_sub_total_candidate\":\"1000\",\"buy_sub_remaining_hot_vacancy\":\"75\",\"buy_sub_remaining_email\":\"497\",\"buy_sub_remaining_candidate\":\"846\",\"update_status_by\":null},\"package_detail\":{\"pck_emp_id\":\"8\",\"pck_emp_name\":\"Monthly\",\"pck_emp_description\":\"[\\n \\\"AI Agentic Hire\\\",\\n \\\"AI JD generator\\\",\\n  \\\"AI Questionnaire Generator\\\",\\n  \\\"AI Questionnaire Report\\\",\\n  \\\"Job Analytics\\\",\\n  \\\"1 Hot Vacancies Post\\\",\\n  \\\"100 Candidate Resumes\\\",\\n  \\\"500 Candidate Outreach Emails\\\",\\n  \\\"Unlimited Active Candidate List\\\",\\n  \\\"CV Recommendations\\\",\\n  \\\"Audio Video Interview Support\\\"\\n ]\",\"pck_sales_price\":\"5000\",\"pck_emp_mrp_price\":\"5000\",\"pck_emp_dicount\":\"0%\",\"pck_emp_discount_amount\":\"00\",\"pck_emp_validity_days\":\"30 days\",\"pck_mode\":\"old_package\",\"pck_type\":null,\"pck_display_price\":null,\"pck_emp_feature\":null,\"pck_emp_status\":\"true\",\"pck_emp_display_orderby\":\"4\",\"pck_emp_email_count\":\"500\",\"pck_emp_hot_vacancy_count\":\"1\",\"pck_emp_candidate_count\":\"100\",\"pck_emp_created_at\":\"2025-05-01 18:13:32\",\"pck_emp_updated_at\":\"2025-12-27 10:52:17\"},\"userSubscription\":true,\"userVerification\":true,\"profile_completion\":\"76\",\"is_password\":true,\"user_company\":{\"company_id\":\"6814\",\"user_id\":\"116054\",\"company_logo\":\"https://remarkhr-bucket-prod.s3.ap-south-1.amazonaws.com/users/5112d6603b2ff5edba9f6264344647f7f6e10de8/company/phplEdlNt\",\"company_name\":\"IBW pvt ltd\",\"company_slug\":\"ibw-pvt-ltd\",\"company_email\":\"oshin.sharma@visko.group\",\"company_website\":\"https://remarkhr.com/\",\"company_address\":\"Indore, Madhya Pradesh\",\"company_city\":\"Indore\",\"company_state\":\"Madhya Pradesh\",\"company_country\":\"India\",\"company_des\":\"Welcome to XYZ company    \",\"company_add_des\":\"\",\"company_rating\":\"\",\"verified_company\":\"1\",\"company_status\":\"1\",\"created_on\":\"2026-01-05 11:30:15\"},\"isLogged\":true,\"auth_token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTE2MDU0IiwidXNlcl9uYW1lIjoiWFlaIiwidXNlcl9wcm9maWxlIjoiIiwidXNlcl9lbWFpbCI6Im9zaGluLnNoYXJtYUB2aXNrby5ncm91cCIsInVzZXJfcGxhdGVmb3JtIjoiV2ViIiwidXNlcl91c2VybmFtZSI6IiIsInVzZXJfb3JnYW5pemF0aW9uIjoidGVzdCIsInVzZXJfb3JnYW5pemF0aW9uX2xvZ28iOiIiLCJ1c2VyX29yZ2FuaXphdGlvbl90eXBlIjoiMSIsInVzZXJfcHJvb2Zfb2Zfb3JnYW5pemF0aW9uIjoicmVzdW1lLXNhbXBsZTAuMS5wZGYiLCJ1c2VyX3Bhc3MiOiIiLCJ1c2VyX21vYmlsZSI6Ijg4ODg4ODg4ODgiLCJ1c2VyX2Rpc3BsYXlfbW9iaWxlX251bWJlciI6IjAiLCJ1c2VyX3Bob3RvIjoiaHR0cHM6Ly9yZW1hcmtoci1idWNrZXQtcHJvZC5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20vdXNlcnMvNTExMmQ2NjAzYjJmZjVlZGJhOWY2MjY0MzQ0NjQ3ZjdmNmUxMGRlOC9wcm9maWxlL2Rvd25sb2FkXzE3ODM2ODE3NTQuanBlZyIsInVzZXJfYmlvIjoiIiwidXNlcl9haV9iaW9fbGltaXQiOiIwIiwidXNlcl9kb2IiOiIiLCJ1c2VyX2V4cGVydGlzZSI6IiIsInVzZXJfc2tpbGxzIjoiIiwidXNlcl9leHBlcmllbmNlIjoiIiwidXNlcl9leHBlcmllbmNlX2V4dCI6IiIsInVzZXJfZXhwX3llYXJzIjoiIiwidXNlcl9leHBfbW9udGhzIjoiIiwidXNlcl90b3RhbF9leHBfbW9udGhzIjoiIiwidXNlcl9xdWFsaWZpY2F0aW9ucyI6IiIsInVzZXJfcXVhbGlmaWNhdGlvbl9leHQiOiIiLCJ1c2VyX2NlcnRpZmljYXRlcyI6bnVsbCwidXNlcl9sYW5ndWFnZXMiOiIiLCJ1c2VyX2xhc3Rfb3RwIjoiNTEyMCIsInVzZXJfb3RwX3ZlcmlmaWVkIjoiMCIsInVzZXJfdmVyaWZpY2F0aW9uX2lkIjoiMCIsInVzZXJfdmVyaWZpZWQiOiIwIiwidXNlcl9jbG9zZWQiOiIwIiwidXNlcl9zZXJ2aWNlIjoiMCIsInVzZXJfcmVzdW1lIjoiIiwidXNlcl9zZWxmX2ludHJvIjoiIiwidXNlcl9kZWxldGVkIjoiMCIsInVzZXJfc3RhdHVzIjoiMCIsInVzZXJfYWRkcmVzcyI6IkluZG9yZSwgTWFkaHlhIFByYWRlc2giLCJ1c2VyX3N0YXRlIjoiTWFkaHlhIFByYWRlc2giLCJ1c2VyX2NpdHkiOiJJbmRvcmUiLCJ1c2VyX2NvdW50cnkiOiJJbmRpYSIsInVzZXJfbG9jYXRpb24iOiIiLCJ1c2VyX2pvYl9sb2NhdGlvbiI6IiIsInVzZXJfdG9rZW4iOiIiLCJ1c2VyX2p3dF90b2tlbiI6IiIsInVzZXJfcmVmZXJyYWwiOiIiLCJ1c2VyX3JlZmVycmVkX2J5IjoiIiwidXNlcl90eXBlIjoiMiIsInVzZXJfcHJvZmlsZV9jb21wbGV0ZSI6IjAiLCJ1c2VyX2dzdF9jZXJ0aWZpY2F0ZSI6IiIsInVzZXJfZ3N0X251bWJlciI6IjIzQUFBQ0g3NDA5UjFaOSIsInVzZXJfY3JlYXRlZF9hdCI6IjIwMjUtMTItMDggMTE6MjA6NDEiLCJ1c2VyX3VwZGF0ZV9hdCI6IjIwMjYtMDktMDMgMTE6NDE6MzUiLCJ1c2VyX2lzX2RlbGV0ZWQiOiIwIiwidXNlcl9nZW5kZXIiOiIiLCJ1c2VyX3NvY2lhbHMiOiIiLCJocl9uYW1lIjoiIiwiZW1haWxfdXBkYXRlcyI6IiIsImxhc3RfYWN0aXZlIjoiIiwidXNlcl9wYXNzd29yZCI6IkN0d0dUMWNRWitneGpqWm1ERlNITWc9PSIsInVzZXJfZW1haWxfdmVyaWZpZWQiOiIxIiwidXNlcl9yZWdpc3RlcmVkX3Rva2VuIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SjFjMlZ5WDIxdlltbHNaU0k2SWpZeU5qYzRPVFF3TnpZaUxDSjFjMlZ5WDNSNWNHVWlPaklzSW5WelpYSmZhMlY1SWpvaVltRmpOR05pWWpZeE56TXpNelZsT0RZeVlURmlNMlJtTmpNMVpXVXpZbUVpTENKMWMyVnlYM0JzWVhSbFptOXliU0k2SW5kbFlpSXNJbVY0Y0dseVpWOXZkSEFpT2pFM05qVXhOek14TVRBc0luVnpaWEpmY0dGemMzZHZjbVFpT2lJMVRUSnViemxOYW1OMVZuTk5jVTR5VmtwU0swdEJQVDBpZlEuM0MzVllWWnFBR2YwRVRmTUNqR0hPYjh6RVZ3NUFlOFVFQWlLUHBnd2lUcyIsIndodHNhcHBfbXNnX3N0YXR1cyI6Ik5FVyIsImxhc3Rfd2hhdHNhcHBfcmVwbHkiOm51bGwsInNoaWZ0cyI6IkRheSIsIm1hcml0YWxfc3RhdHVzIjoiU2luZ2xlIiwidXNlcl9waW5jb2RlIjpudWxsLCJpZCI6IjExNjA1NCJ9.GM0PReLjliFOv1wS-5ar9hmHMtb00REghtkmqcVwmBQ\"},\"token\":\"\"}"
+        },
+        {
+          "name": "onloadPopup",
+          "value": "true"
+        },
+        {
+          "name": "user",
+          "value": "{\"user_id\":\"116054\",\"user_name\":\"XYZ\",\"user_profile\":\"\",\"user_email\":\"oshin.sharma@visko.group\",\"user_plateform\":\"Web\",\"user_username\":\"\",\"user_organization\":\"test\",\"user_organization_logo\":\"\",\"user_organization_type\":\"1\",\"user_proof_of_organization\":\"resume-sample0.1.pdf\",\"user_pass\":\"\",\"user_mobile\":\"8888888888\",\"user_display_mobile_number\":\"0\",\"user_photo\":\"https://remarkhr-bucket-prod.s3.ap-south-1.amazonaws.com/users/5112d6603b2ff5edba9f6264344647f7f6e10de8/profile/download_1783681754.jpeg\",\"user_bio\":\"\",\"user_ai_bio_limit\":\"0\",\"user_dob\":\"\",\"user_expertise\":\"\",\"user_skills\":\"\",\"user_experience\":null,\"user_experience_ext\":null,\"user_exp_years\":\"\",\"user_exp_months\":\"\",\"user_total_exp_months\":\"\",\"user_qualifications\":\"\",\"user_qualification_ext\":null,\"user_certificates\":null,\"user_languages\":\"\",\"user_last_otp\":\"5120\",\"user_otp_verified\":\"0\",\"user_verification_id\":\"0\",\"user_verified\":\"0\",\"user_closed\":\"0\",\"user_service\":\"0\",\"user_resume\":\"\",\"user_self_intro\":\"\",\"user_deleted\":\"0\",\"user_status\":\"0\",\"user_address\":\"Indore, Madhya Pradesh\",\"user_state\":\"Madhya Pradesh\",\"user_city\":\"Indore\",\"user_country\":\"India\",\"user_location\":\"\",\"user_job_location\":\"\",\"user_token\":\"\",\"user_jwt_token\":\"\",\"user_referral\":\"\",\"user_referred_by\":\"\",\"user_type\":\"2\",\"user_profile_complete\":\"0\",\"user_gst_certificate\":\"\",\"user_gst_number\":\"23AAACH7409R1Z9\",\"user_created_at\":\"2025-12-08 11:20:41\",\"user_update_at\":\"2026-09-03 11:41:35\",\"user_is_deleted\":\"0\",\"user_gender\":\"\",\"user_socials\":\"\",\"hr_name\":\"\",\"email_updates\":\"\",\"last_active\":\"\",\"user_password\":\"CtwGT1cQZ+gxjjZmDFSHMg==\",\"user_email_verified\":\"1\",\"user_registered_token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX21vYmlsZSI6IjYyNjc4OTQwNzYiLCJ1c2VyX3R5cGUiOjIsInVzZXJfa2V5IjoiYmFjNGNiYjYxNzMzMzVlODYyYTFiM2RmNjM1ZWUzYmEiLCJ1c2VyX3BsYXRlZm9ybSI6IndlYiIsImV4cGlyZV9vdHAiOjE3NjUxNzMxMTAsInVzZXJfcGFzc3dvcmQiOiI1TTJubzlNamN1VnNNcU4yVkpSK0tBPT0ifQ.3C3VYVZqAGf0ETfMCjGHOb8zEVw5Ae8UEAiKPpgwiTs\",\"whtsapp_msg_status\":\"NEW\",\"last_whatsapp_reply\":null,\"shifts\":\"Day\",\"marital_status\":\"Single\",\"user_pincode\":null,\"user_company_kyc\":{\"ck_id\":\"3739\",\"ck_user_id\":\"116054\",\"ck_company_proof\":\"https://remarkhr-bucket-prod.s3.ap-south-1.amazonaws.com/users/5112d6603b2ff5edba9f6264344647f7f6e10de8/kyc/resume-sample0.1.pdf\",\"ck_response\":\"1\",\"ck_reason\":\"\",\"ck_crm_employee_id\":\"22\",\"ck_description\":\"\",\"ck_updated_at\":\"2026-05-29 19:07:07\",\"ck_created_at\":\"2025-12-27 12:43:39\",\"ck_doc_type\":\"pan\",\"ck_doc_correct\":null},\"is_company_verified\":\"1\",\"user_buy_subscription\":\"1\",\"user_subscription_detail\":{\"buy_sub_id\":\"174\",\"buy_sub_user_id\":\"116054\",\"buy_sub_invoice\":null,\"buy_sub_start_date\":\"2026-01-03\",\"buy_sub_end_date\":\"2026-12-03\",\"buy_sub_status\":\"inactive\",\"buy_sub_is_deleted\":\"0\",\"buy_sub_renew_status\":null,\"buy_sub_total_hot_vacancy\":\"100\",\"buy_sub_total_email\":\"500\",\"buy_sub_total_candidate\":\"1000\",\"buy_sub_remaining_hot_vacancy\":\"75\",\"buy_sub_remaining_email\":\"497\",\"buy_sub_remaining_candidate\":\"846\",\"update_status_by\":null},\"package_detail\":{\"pck_emp_id\":\"8\",\"pck_emp_name\":\"Monthly\",\"pck_emp_description\":\"[\\n \\\"AI Agentic Hire\\\",\\n \\\"AI JD generator\\\",\\n  \\\"AI Questionnaire Generator\\\",\\n  \\\"AI Questionnaire Report\\\",\\n  \\\"Job Analytics\\\",\\n  \\\"1 Hot Vacancies Post\\\",\\n  \\\"100 Candidate Resumes\\\",\\n  \\\"500 Candidate Outreach Emails\\\",\\n  \\\"Unlimited Active Candidate List\\\",\\n  \\\"CV Recommendations\\\",\\n  \\\"Audio Video Interview Support\\\"\\n ]\",\"pck_sales_price\":\"5000\",\"pck_emp_mrp_price\":\"5000\",\"pck_emp_dicount\":\"0%\",\"pck_emp_discount_amount\":\"00\",\"pck_emp_validity_days\":\"30 days\",\"pck_mode\":\"old_package\",\"pck_type\":null,\"pck_display_price\":null,\"pck_emp_feature\":null,\"pck_emp_status\":\"true\",\"pck_emp_display_orderby\":\"4\",\"pck_emp_email_count\":\"500\",\"pck_emp_hot_vacancy_count\":\"1\",\"pck_emp_candidate_count\":\"100\",\"pck_emp_created_at\":\"2025-05-01 18:13:32\",\"pck_emp_updated_at\":\"2025-12-27 10:52:17\"},\"userSubscription\":true,\"userVerification\":true,\"profile_completion\":\"76\",\"is_password\":true,\"user_company\":{\"company_id\":\"6814\",\"user_id\":\"116054\",\"company_logo\":\"https://remarkhr-bucket-prod.s3.ap-south-1.amazonaws.com/users/5112d6603b2ff5edba9f6264344647f7f6e10de8/company/phplEdlNt\",\"company_name\":\"IBW pvt ltd\",\"company_slug\":\"ibw-pvt-ltd\",\"company_email\":\"oshin.sharma@visko.group\",\"company_website\":\"https://remarkhr.com/\",\"company_address\":\"Indore, Madhya Pradesh\",\"company_city\":\"Indore\",\"company_state\":\"Madhya Pradesh\",\"company_country\":\"India\",\"company_des\":\"Welcome to XYZ company    \",\"company_add_des\":\"\",\"company_rating\":\"\",\"verified_company\":\"1\",\"company_status\":\"1\",\"created_on\":\"2026-01-05 11:30:15\"},\"isLogged\":true,\"auth_token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTE2MDU0IiwidXNlcl9uYW1lIjoiWFlaIiwidXNlcl9wcm9maWxlIjoiIiwidXNlcl9lbWFpbCI6Im9zaGluLnNoYXJtYUB2aXNrby5ncm91cCIsInVzZXJfcGxhdGVmb3JtIjoiV2ViIiwidXNlcl91c2VybmFtZSI6IiIsInVzZXJfb3JnYW5pemF0aW9uIjoidGVzdCIsInVzZXJfb3JnYW5pemF0aW9uX2xvZ28iOiIiLCJ1c2VyX29yZ2FuaXphdGlvbl90eXBlIjoiMSIsInVzZXJfcHJvb2Zfb2Zfb3JnYW5pemF0aW9uIjoicmVzdW1lLXNhbXBsZTAuMS5wZGYiLCJ1c2VyX3Bhc3MiOiIiLCJ1c2VyX21vYmlsZSI6Ijg4ODg4ODg4ODgiLCJ1c2VyX2Rpc3BsYXlfbW9iaWxlX251bWJlciI6IjAiLCJ1c2VyX3Bob3RvIjoiaHR0cHM6Ly9yZW1hcmtoci1idWNrZXQtcHJvZC5zMy5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb20vdXNlcnMvNTExMmQ2NjAzYjJmZjVlZGJhOWY2MjY0MzQ0NjQ3ZjdmNmUxMGRlOC9wcm9maWxlL2Rvd25sb2FkXzE3ODM2ODE3NTQuanBlZyIsInVzZXJfYmlvIjoiIiwidXNlcl9haV9iaW9fbGltaXQiOiIwIiwidXNlcl9kb2IiOiIiLCJ1c2VyX2V4cGVydGlzZSI6IiIsInVzZXJfc2tpbGxzIjoiIiwidXNlcl9leHBlcmllbmNlIjoiIiwidXNlcl9leHBlcmllbmNlX2V4dCI6IiIsInVzZXJfZXhwX3llYXJzIjoiIiwidXNlcl9leHBfbW9udGhzIjoiIiwidXNlcl90b3RhbF9leHBfbW9udGhzIjoiIiwidXNlcl9xdWFsaWZpY2F0aW9ucyI6IiIsInVzZXJfcXVhbGlmaWNhdGlvbl9leHQiOiIiLCJ1c2VyX2NlcnRpZmljYXRlcyI6bnVsbCwidXNlcl9sYW5ndWFnZXMiOiIiLCJ1c2VyX2xhc3Rfb3RwIjoiNTEyMCIsInVzZXJfb3RwX3ZlcmlmaWVkIjoiMCIsInVzZXJfdmVyaWZpY2F0aW9uX2lkIjoiMCIsInVzZXJfdmVyaWZpZWQiOiIwIiwidXNlcl9jbG9zZWQiOiIwIiwidXNlcl9zZXJ2aWNlIjoiMCIsInVzZXJfcmVzdW1lIjoiIiwidXNlcl9zZWxmX2ludHJvIjoiIiwidXNlcl9kZWxldGVkIjoiMCIsInVzZXJfc3RhdHVzIjoiMCIsInVzZXJfYWRkcmVzcyI6IkluZG9yZSwgTWFkaHlhIFByYWRlc2giLCJ1c2VyX3N0YXRlIjoiTWFkaHlhIFByYWRlc2giLCJ1c2VyX2NpdHkiOiJJbmRvcmUiLCJ1c2VyX2NvdW50cnkiOiJJbmRpYSIsInVzZXJfbG9jYXRpb24iOiIiLCJ1c2VyX2pvYl9sb2NhdGlvbiI6IiIsInVzZXJfdG9rZW4iOiIiLCJ1c2VyX2p3dF90b2tlbiI6IiIsInVzZXJfcmVmZXJyYWwiOiIiLCJ1c2VyX3JlZmVycmVkX2J5IjoiIiwidXNlcl90eXBlIjoiMiIsInVzZXJfcHJvZmlsZV9jb21wbGV0ZSI6IjAiLCJ1c2VyX2dzdF9jZXJ0aWZpY2F0ZSI6IiIsInVzZXJfZ3N0X251bWJlciI6IjIzQUFBQ0g3NDA5UjFaOSIsInVzZXJfY3JlYXRlZF9hdCI6IjIwMjUtMTItMDggMTE6MjA6NDEiLCJ1c2VyX3VwZGF0ZV9hdCI6IjIwMjYtMDktMDMgMTE6NDE6MzUiLCJ1c2VyX2lzX2RlbGV0ZWQiOiIwIiwidXNlcl9nZW5kZXIiOiIiLCJ1c2VyX3NvY2lhbHMiOiIiLCJocl9uYW1lIjoiIiwiZW1haWxfdXBkYXRlcyI6IiIsImxhc3RfYWN0aXZlIjoiIiwidXNlcl9wYXNzd29yZCI6IkN0d0dUMWNRWitneGpqWm1ERlNITWc9PSIsInVzZXJfZW1haWxfdmVyaWZpZWQiOiIxIiwidXNlcl9yZWdpc3RlcmVkX3Rva2VuIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SjFjMlZ5WDIxdlltbHNaU0k2SWpZeU5qYzRPVFF3TnpZaUxDSjFjMlZ5WDNSNWNHVWlPaklzSW5WelpYSmZhMlY1SWpvaVltRmpOR05pWWpZeE56TXpNelZsT0RZeVlURmlNMlJtTmpNMVpXVXpZbUVpTENKMWMyVnlYM0JzWVhSbFptOXliU0k2SW5kbFlpSXNJbVY0Y0dseVpWOXZkSEFpT2pFM05qVXhOek14TVRBc0luVnpaWEpmY0dGemMzZHZjbVFpT2lJMVRUSnViemxOYW1OMVZuTk5jVTR5VmtwU0swdEJQVDBpZlEuM0MzVllWWnFBR2YwRVRmTUNqR0hPYjh6RVZ3NUFlOFVFQWlLUHBnd2lUcyIsIndodHNhcHBfbXNnX3N0YXR1cyI6Ik5FVyIsImxhc3Rfd2hhdHNhcHBfcmVwbHkiOm51bGwsInNoaWZ0cyI6IkRheSIsIm1hcml0YWxfc3RhdHVzIjoiU2luZ2xlIiwidXNlcl9waW5jb2RlIjpudWxsLCJpZCI6IjExNjA1NCJ9.GM0PReLjliFOv1wS-5ar9hmHMtb00REghtkmqcVwmBQ\"}"
+        },
+        {
+          "name": "isLogged",
+          "value": "true"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"vRjDMheGTiBseV3p2dTVlt_6W5u-wEDbpg\",\"lastJoinedTimeMs\":1789364972611},\"expires\":1789365272611},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1789364972619},\"expires\":1797140972619}}"
+        },
+        {
+          "name": "li_adsId",
+          "value": "f598867a-5bde-4572-b670-9f6326256ff8"
+        },
+        {
+          "name": "api_key",
+          "value": "pk_C0HlgtycMZ_GMPdA5XYdYw"
+        },
+        {
+          "name": "secret_key",
+          "value": "sk_FQMXTucVqR_xiLH5U2-xqO-BGu-531Ue_DwHkl2NHw0"
+        },
+        {
+          "name": "remark_mobile_popup_closed",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "origin": "https://tr.snapchat.com",
+      "localStorage": [
+        {
+          "name": "u_sclid_r",
+          "value": "7EMqEBRz0ofh5h3EDI_JkPBX5qi_J97J168p0lX6dyz08IwhVccF5u605WrwrnNu"
+        },
+        {
+          "name": "u_sclid",
+          "value": "7EMqEBRz0ofh5h3EDI_JkPBX5qi_J97J168p0lX6dyz08IwhVccF5u605WrwrnNu"
+        }
+      ]
+    }
+  ]
+}
