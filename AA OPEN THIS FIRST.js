@@ -3,7 +3,7 @@
 // ==================================================
 
 // Job Search / Applied / Saved Jobs
-export const candidateJobTitle = 'Radiologist Consultant';
+export const candidateJobTitle = 'product promotional sales';
 
 // Profile Instagram URL
 export const profileinstaupdate = `www.${candidateJobTitle}.com`;
@@ -17,18 +17,18 @@ export const profileinstaupdate = `www.${candidateJobTitle}.com`;
 // ==================================================
 
 // Profile
-export const profileUpdateURL = 'https://remarkhr.co.in';
+export const profileUpdateURL = 'https://remarkhr.com';
 
 // Manage Company
 
 // 1. Company Name
-export const companyName = 'Do not apply - For internal use only';
+export const companyName = 'Do not apply - internal use only';
 
 // 2. Email address
-export const emailAddress = 'test3@mailinator.com';
+export const emailAddress = 'test5@mailinator.com';
 
 // 3. Mobile number
-export const mobileNumber = '9989999999';
+export const mobileNumber = '9999999990';
 
 
 // ==================================================
@@ -36,4 +36,4 @@ export const mobileNumber = '9989999999';
 // ==================================================
 
 // 1. Job Title
-export const employerJobTitle = 'Product Manager';
+export const employerJobTitle = 'Mern Stack Developer';
