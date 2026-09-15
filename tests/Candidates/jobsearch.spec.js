@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 
 import { candidateJobTitle } from '../../AA OPEN THIS FIRST';
 
-test('Verify job application functionality', async ({ page }) => {
+test('Verify that user is able to search for the jobs', async ({ page }) => {
 
   await page.goto('https://remarkhr.com')
 

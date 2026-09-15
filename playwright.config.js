@@ -18,7 +18,7 @@ export default defineConfig({
   projects: [
 
     {
-      name: 'Candidate',
+      name: 'Candidates',
 
       testDir: './tests/Candidates',
 
