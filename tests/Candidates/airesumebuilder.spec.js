@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
 
+let screenshot;
+
 test('Auto Fill - Use My Profile', async ({ page }) => {
   await page.goto('https://remarkhr.com/ai-tools/resume-builder');
   await page.getByRole('button', { name: 'Auto Fill Use My Profile Your' }).click();

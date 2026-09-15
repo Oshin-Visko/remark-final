@@ -1,22 +1,11 @@
 import { test, expect } from '@playwright/test';
 
-
-import {profileinstaupdate} from '../../AA OPEN THIS FIRST';
-
-
-
+import { profileinstaupdate } from '../../AA OPEN THIS FIRST';
 
 test('Verify profile information is displayed correctly', async ({ page }) => {
-    // await login(page);
 
-    await page.goto('https://remarkhr.com/profile/employee/profile')
-
-      // await page.getByRole('link', { name: 'Jho Doe New Full Stack' }).click();
-
-
-    // await page.goto('https://remarkhr.com/profile/employee/profile')
-
-
+  await page.goto('https://remarkhr.com/profile/employee/profile')
+  
   await expect(page.getByRole('img', { name: 'Profile' })).toBeVisible();
   await expect(page.locator('.flex.flex-col > .flex.items-center.gap-4')).toBeVisible();
   await expect(page.getByText('BioRequired')).toBeVisible();
@@ -36,35 +25,35 @@ test('Verify profile information is displayed correctly', async ({ page }) => {
 
 test('Verify profile information is editable', async ({ page }) => {
 
-      await page.goto('https://remarkhr.com/profile/employee/profile')
+  await page.goto('https://remarkhr.com/profile/employee/profile')
 
 
-    // await login(page);
-    
-// const changes = 'www.manager.com'
+  // await login(page);
 
-await expect(page.getByRole('button', { name: ' Notifications' })).toBeVisible();
-await expect(page.getByRole('link', { name: ' Edit Profile' })).toBeVisible();
-await page.getByRole('link', { name: ' Edit Profile' }).click();
-await page.getByRole('textbox', { name: 'Instagram' }).click();
+  // const changes = 'www.manager.com'
 
- await test.info().attach('Before Changes', {
-  body: await page.screenshot(),
-  contentType: 'image/png',
-    });
+  await expect(page.getByRole('button', { name: ' Notifications' })).toBeVisible();
+  await expect(page.getByRole('link', { name: ' Edit Profile' })).toBeVisible();
+  await page.getByRole('link', { name: ' Edit Profile' }).click();
+  await page.getByRole('textbox', { name: 'Instagram' }).click();
 
-await page.getByRole('textbox', { name: 'Instagram' }).fill(profileinstaupdate);
+  await test.info().attach('Before Changes', {
+    body: await page.screenshot(),
+    contentType: 'image/png',
+  });
 
- await test.info().attach('After Changes', {
+  await page.getByRole('textbox', { name: 'Instagram' }).fill(profileinstaupdate);
+
+  await test.info().attach('After Changes', {
     body: await page.screenshot(),
     contentType: 'image0.1/png',
   });
 
-await expect(page.getByRole('button', { name: 'Update Profile' })).toBeVisible();
-await page.getByRole('button', { name: 'Update Profile' }).click();
-await expect(page.getByText('Profile updated successfully!')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Update Profile' })).toBeVisible();
+  await page.getByRole('button', { name: 'Update Profile' }).click();
+  await expect(page.getByText('Profile updated successfully!')).toBeVisible();
 
-await test.info().attach('Profile Updated Successfully', {
+  await test.info().attach('Profile Updated Successfully', {
     body: await page.screenshot(),
     contentType: 'image0.2/png',
   });

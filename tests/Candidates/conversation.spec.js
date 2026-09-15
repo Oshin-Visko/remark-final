@@ -1,8 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-// test.use({
-//   storageState: 'auth.json'
-// });
+let screenshot;
 
 test('Check that conversation is working fine.', async ({ page }) => {
   await page.goto('https://remarkhr.com/profile/employee/conversation');  
@@ -13,4 +11,12 @@ test('Check that conversation is working fine.', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Type a message...' }).fill('Hello, this is an automation test...');
   await page.locator('section').getByRole('button').click();
   await expect(page.locator('section').getByText('Hello, this is an automation')).toBeVisible();
+
+  await page.waitForTimeout(1000);
+  screenshot = await page.screenshot();
+  test.info().attach('Conversation', {
+    body:screenshot,
+    contentType: 'image/png'
+  })
+
 });

@@ -23,8 +23,8 @@ test('Verify that user is able to login successfully', async ({ page }) => {
     await page.getByRole('textbox', { name: 'Password' }).fill('123456789');
     await page.getByRole('button', { name: 'Login', exact: true }).click();
     await expect(page.getByRole('heading', { name: 'Welcome, XYZ!' })).toBeVisible();
-
-     screenshot = await page.screenshot();
+     
+    screenshot = await page.screenshot();
     test.info().attach('Before', {
         body:screenshot,
         contentType: 'image/png'

@@ -1,5 +1,7 @@
 import { test, expect } from "@playwright/test";
 
+let screenshot;
+
 test('Check that user is able to create a new ticket.', async ({ page }) => {
   await page.goto('https://remarkhr.com/profile/employer/support');
   await page.getByRole('combobox').selectOption('Job Posting Issue ');
@@ -11,11 +13,25 @@ test('Check that user is able to create a new ticket.', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Your Ticket Number' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'View My Tickets' }).nth(1)).toBeVisible();
   await page.getByRole('button', { name: 'View My Tickets' }).nth(1).click();
+
+  await page.waitForTimeout(1000);
+  screenshot = await page.screenshot()
+  test.info().attach('Ticekt', {
+    body: screenshot,
+    contentType: 'image/png'
+  })
 });
 
 test('Verify that all tickets are visible on the support page', async ({ page }) => {
-    await page.goto('https://remarkhr.com/profile/employer/support')
-    await expect(page.getByRole('button', { name: 'ai Features' })).toBeVisible();
-    await page.getByRole('button', { name: 'My Tickets', exact: true }).click();
-    await expect(page.getByRole('heading', { name: 'My Support Tickets' })).toBeVisible();
+  await page.goto('https://remarkhr.com/profile/employer/support')
+  await expect(page.getByRole('button', { name: 'ai Features' })).toBeVisible();
+  await page.getByRole('button', { name: 'My Tickets', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'My Support Tickets' })).toBeVisible();
+
+  await page.waitForTimeout(1000);
+  screenshot = await page.screenshot()
+  test.info().attach('Ticekt', {
+    body: screenshot,
+    contentType: 'image/png'
+  })
 })

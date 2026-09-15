@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 
+let screenshot;
 
 test('Verify that user is able to use AI Mock Interview', async ({ page }) => {
   await page.goto('https://remarkhr.com/profile/employee/mock-interview');
@@ -26,4 +27,11 @@ test('Verify that user is able to use AI Mock Interview', async ({ page }) => {
   await page.waitForLoadState('networkidle');
   await expect(page.getByRole('heading', { name: 'Interview Complete!' })).toBeVisible();
   await page.getByRole('button', { name: 'Retake Interview' }).click();
+
+  await page.waitForTimeout(1000);
+    screenshot = await page.screenshot();
+    test.info().attach('AI Bio Generator' , {
+      body:screenshot,
+      contentType: 'image/png',
+    })
 });

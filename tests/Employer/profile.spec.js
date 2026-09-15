@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 
 import {profileUpdateURL} from '../../AA OPEN THIS FIRST';
 
+let screenshot;
 
 
 test('Verify that profile page loads successfully', async ({ page }) => {
@@ -23,4 +24,10 @@ test(`Check that user is able to 'Edit' profile successfully`, async ({ page }) 
     await expect(page.getByRole('button', { name: ' Update Profile' })).toBeVisible();
     await page.getByRole('button', { name: ' Update Profile' }).click();
 
+    await page.waitForTimeout(1000)
+    screenshot = await page.screenshot();
+    test.info().attach('Profile Updation', {
+        body:screenshot,
+        contentType: 'image/png',
+    })
 })

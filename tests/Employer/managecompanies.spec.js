@@ -42,6 +42,8 @@ test('Check that user is able to add new company', async ({ page }) => {
   await expect(page.getByText('Browse Logo')).toBeVisible();
   await page.getByText('Browse Logo').click();
   await page.getByLabel('Browse Logo').setInputFiles('./ManageCompany_logo/images (3).jpeg');
+
+
   await expect(page.getByRole('button', { name: 'Add a new company' })).toBeVisible();
   await page.getByRole('button', { name: 'Add a new company' }).click();
 

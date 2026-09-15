@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 
+  let screenshot;
 
 
 test('New Screening', async ({ page }) => {
@@ -72,6 +73,7 @@ Research competitors, market trends, and new business opportunities.`);
 
   await fileChooser.setFiles('./Resume/Salesexecutiveresume_edit.pdf')
 
+
   await expect(page.getByRole('button', { name: 'Start AI Screening' })).toBeVisible();
   await page.getByRole('button', { name: 'Start AI Screening' }).click();
   await expect(page.getByRole('heading', { name: 'AI is Analyzing Resumes' })).toBeVisible();
@@ -135,7 +137,7 @@ test('Screening History', async ({ page }) => {
 })
 
 test('Check that all previous screenings are visible after "Reload" of webpage', async ({ page }) => {
-  let screenshot;
+  // let screenshot;
   await page.goto('https://remarkhr.com/profile/employer/airesumeselector');
   await page.reload();
   await page.getByRole('button', { name: 'Screening History' }).click();
